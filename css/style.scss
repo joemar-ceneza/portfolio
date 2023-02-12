@@ -1012,7 +1012,8 @@ footer{
         .container{
             .portfolio-container{
                 .rows-portfolio{
-                    .rows-portfolio-container{
+                    .rows-portfolio-container,
+                    .more-project{
                         grid-template-columns: 1fr 1fr;
                         justify-content: space-between;
                     }
@@ -1104,7 +1105,8 @@ footer{
         .container{
             .portfolio-container{
                 .rows-portfolio{
-                    .rows-portfolio-container{
+                    .rows-portfolio-container,
+                    .more-project{
                         grid-template-columns: 1fr;
                     }
                 }
