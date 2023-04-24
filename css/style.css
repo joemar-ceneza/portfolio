@@ -1246,19 +1246,25 @@ header nav .nav-center .links-container .dark-light .dark-theme .fa-regular:hove
 }
 #portfolio .container .portfolio-container .more-project .faq-accordion-project,
 #portfolio .container .portfolio-container .more-project .expanding-cards-project,
-#portfolio .container .portfolio-container .more-project .simon-game-project {
+#portfolio .container .portfolio-container .more-project .simon-game-project,
+#portfolio .container .portfolio-container .more-project .notes-app-project,
+#portfolio .container .portfolio-container .more-project .birthday-buddy-app-project {
   position: relative;
 }
 #portfolio .container .portfolio-container .more-project .faq-accordion-project img,
 #portfolio .container .portfolio-container .more-project .expanding-cards-project img,
-#portfolio .container .portfolio-container .more-project .simon-game-project img {
+#portfolio .container .portfolio-container .more-project .simon-game-project img,
+#portfolio .container .portfolio-container .more-project .notes-app-project img,
+#portfolio .container .portfolio-container .more-project .birthday-buddy-app-project img {
   width: 100%;
   border-radius: 20px;
   display: block;
 }
 #portfolio .container .portfolio-container .more-project .faq-accordion-project .overlay,
 #portfolio .container .portfolio-container .more-project .expanding-cards-project .overlay,
-#portfolio .container .portfolio-container .more-project .simon-game-project .overlay {
+#portfolio .container .portfolio-container .more-project .simon-game-project .overlay,
+#portfolio .container .portfolio-container .more-project .notes-app-project .overlay,
+#portfolio .container .portfolio-container .more-project .birthday-buddy-app-project .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1272,7 +1278,9 @@ header nav .nav-center .links-container .dark-light .dark-theme .fa-regular:hove
 }
 #portfolio .container .portfolio-container .more-project .faq-accordion-project .overlay .project-details,
 #portfolio .container .portfolio-container .more-project .expanding-cards-project .overlay .project-details,
-#portfolio .container .portfolio-container .more-project .simon-game-project .overlay .project-details {
+#portfolio .container .portfolio-container .more-project .simon-game-project .overlay .project-details,
+#portfolio .container .portfolio-container .more-project .notes-app-project .overlay .project-details,
+#portfolio .container .portfolio-container .more-project .birthday-buddy-app-project .overlay .project-details {
   width: 90%;
   position: absolute;
   top: 50%;
@@ -1282,27 +1290,35 @@ header nav .nav-center .links-container .dark-light .dark-theme .fa-regular:hove
 }
 #portfolio .container .portfolio-container .more-project .faq-accordion-project .overlay .project-details h3,
 #portfolio .container .portfolio-container .more-project .expanding-cards-project .overlay .project-details h3,
-#portfolio .container .portfolio-container .more-project .simon-game-project .overlay .project-details h3 {
+#portfolio .container .portfolio-container .more-project .simon-game-project .overlay .project-details h3,
+#portfolio .container .portfolio-container .more-project .notes-app-project .overlay .project-details h3,
+#portfolio .container .portfolio-container .more-project .birthday-buddy-app-project .overlay .project-details h3 {
   color: #fff;
   font-size: 1.5rem;
   text-align: center;
 }
 #portfolio .container .portfolio-container .more-project .faq-accordion-project .overlay .project-details .icons-language,
 #portfolio .container .portfolio-container .more-project .expanding-cards-project .overlay .project-details .icons-language,
-#portfolio .container .portfolio-container .more-project .simon-game-project .overlay .project-details .icons-language {
+#portfolio .container .portfolio-container .more-project .simon-game-project .overlay .project-details .icons-language,
+#portfolio .container .portfolio-container .more-project .notes-app-project .overlay .project-details .icons-language,
+#portfolio .container .portfolio-container .more-project .birthday-buddy-app-project .overlay .project-details .icons-language {
   display: flex;
   justify-content: center;
   margin: 1em 0;
 }
 #portfolio .container .portfolio-container .more-project .faq-accordion-project .overlay .project-details .icons-language img,
 #portfolio .container .portfolio-container .more-project .expanding-cards-project .overlay .project-details .icons-language img,
-#portfolio .container .portfolio-container .more-project .simon-game-project .overlay .project-details .icons-language img {
+#portfolio .container .portfolio-container .more-project .simon-game-project .overlay .project-details .icons-language img,
+#portfolio .container .portfolio-container .more-project .notes-app-project .overlay .project-details .icons-language img,
+#portfolio .container .portfolio-container .more-project .birthday-buddy-app-project .overlay .project-details .icons-language img {
   width: 10%;
   margin: 0;
 }
 #portfolio .container .portfolio-container .more-project .faq-accordion-project .overlay .project-details .btn-view-project-container .btn-view-project,
 #portfolio .container .portfolio-container .more-project .expanding-cards-project .overlay .project-details .btn-view-project-container .btn-view-project,
-#portfolio .container .portfolio-container .more-project .simon-game-project .overlay .project-details .btn-view-project-container .btn-view-project {
+#portfolio .container .portfolio-container .more-project .simon-game-project .overlay .project-details .btn-view-project-container .btn-view-project,
+#portfolio .container .portfolio-container .more-project .notes-app-project .overlay .project-details .btn-view-project-container .btn-view-project,
+#portfolio .container .portfolio-container .more-project .birthday-buddy-app-project .overlay .project-details .btn-view-project-container .btn-view-project {
   padding: 1em;
   font-size: 0.8rem;
   text-transform: capitalize;
@@ -1313,14 +1329,18 @@ header nav .nav-center .links-container .dark-light .dark-theme .fa-regular:hove
 }
 #portfolio .container .portfolio-container .more-project .faq-accordion-project .overlay .project-details .btn-view-project-container .btn-view-project a,
 #portfolio .container .portfolio-container .more-project .expanding-cards-project .overlay .project-details .btn-view-project-container .btn-view-project a,
-#portfolio .container .portfolio-container .more-project .simon-game-project .overlay .project-details .btn-view-project-container .btn-view-project a {
+#portfolio .container .portfolio-container .more-project .simon-game-project .overlay .project-details .btn-view-project-container .btn-view-project a,
+#portfolio .container .portfolio-container .more-project .notes-app-project .overlay .project-details .btn-view-project-container .btn-view-project a,
+#portfolio .container .portfolio-container .more-project .birthday-buddy-app-project .overlay .project-details .btn-view-project-container .btn-view-project a {
   text-decoration: none;
   color: #fff;
   letter-spacing: 0.8px;
 }
 #portfolio .container .portfolio-container .more-project .faq-accordion-project:hover .overlay,
 #portfolio .container .portfolio-container .more-project .expanding-cards-project:hover .overlay,
-#portfolio .container .portfolio-container .more-project .simon-game-project:hover .overlay {
+#portfolio .container .portfolio-container .more-project .simon-game-project:hover .overlay,
+#portfolio .container .portfolio-container .more-project .notes-app-project:hover .overlay,
+#portfolio .container .portfolio-container .more-project .birthday-buddy-app-project:hover .overlay {
   opacity: 1;
 }
 #portfolio .container .portfolio-container .more-project img {

@@ -882,7 +882,9 @@ header {
 
                 .faq-accordion-project,
                 .expanding-cards-project,
-                .simon-game-project {
+                .simon-game-project,
+                .notes-app-project,
+                .birthday-buddy-app-project {
                     position: relative;
 
                     img {
@@ -951,7 +953,9 @@ header {
 
                 .faq-accordion-project:hover .overlay,
                 .expanding-cards-project:hover .overlay,
-                .simon-game-project:hover .overlay {
+                .simon-game-project:hover .overlay,
+                .notes-app-project:hover .overlay,
+                .birthday-buddy-app-project:hover .overlay {
                     opacity: 1;
                 }
 
